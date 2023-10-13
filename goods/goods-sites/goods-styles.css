@@ -16,16 +16,15 @@ a>p{
     align-items: center;
     background-color: #008000;
     height: 10vh;
+    overflow: hidden;
     color: white;
   }
  
   .goods-nav > a > span {
-    padding: 25px;
+    padding: 1vw 2vw;
     font-weight: 600;
     font-size: calc(1vw + 1vh);
     color: white;
-    word-wrap: break-word;
-    letter-spacing: 1px;
   }
   
   .goods-nav > a > span:hover {
@@ -33,37 +32,37 @@ a>p{
   }
   
   @media only screen and (max-width: 600px) {
-    
     .goods-nav > a > span {
       font-size: 3vw;
+      padding: 2vw 4vw;
     }
   }
   
   @media only screen and (min-width: 600px) and (max-width: 768px) {
-    
     .goods-nav > a > span {
       font-size: 2.5vw;
+      padding: 1.5vw 3vw;
     }
   }
   
   @media only screen and (min-width: 768px) and (max-width: 992px) {
-    
     .goods-nav > a > span {
       font-size: 2vw;
+      padding: 1vw 2vw;
     }
   }
   
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    
     .goods-nav > a > span {
       font-size: 1.5vw;
+      padding: 0.5vw 1vw;
     }
   }
   
   @media only screen and (min-width: 1200px) {
-    
     .goods-nav > a > span {
       font-size: 1vw;
+      padding: 0.5vw 1vw;
     }
   }
 .catalog{
