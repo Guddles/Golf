@@ -1,0 +1,329 @@
+/* Define the Open Sans font */
+@font-face {
+    font-family: 'OpenSans';
+    src: url(fonts/OpenSans/OpenSans-Regular.ttf);
+  }
+  
+  /* Set the default styles for the body */
+  body {
+    margin: 0;
+    font-family: 'OpenSans';
+  }
+  
+  /* Set the styles for the header */
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+  
+  /* Set the styles for images */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Set the styles for links */
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Set the styles for the main menu container */
+  .main-menu-container > a:hover,
+  footer > ul > li > ul > li:hover,
+  footer > ul > li > ul > li > a:hover {
+    color: rgb(46, 125, 50);
+    transition-duration: 0.25s;
+  }
+  
+  /* Set the styles for the main menu */
+  .main-menu-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    font-size: 13pt;
+  }
+  
+  /* Set the styles for the current location */
+  .current-location {
+    color: rgb(46, 125, 50);
+    font-weight: bold;
+  }
+  
+  /* Set the styles for the logo */
+  .logo {
+    padding-top: 10px;
+    display: inline-block;
+    padding-left: 5px;
+  }
+  
+  /* Set the styles for the site name */
+  .site-name {
+    font-size: 25pt;
+    color: rgb(46, 125, 50);
+  }
+  
+  /* Set the styles for the image */
+  .img {
+    height: 500px;
+    width: 1170px;
+    padding-top: 50px;
+  }
+  
+  /* Set the styles for the plysi */
+  .plysi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Set the styles for the mark */
+  .mark {
+    padding: 40px;
+  }
+  
+  /* Set the styles for the about */
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+  }
+  
+  /* Set the styles for the golf car and golf field */
+  .golf-car,
+  .golf-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 500px;
+  }
+  
+  /* Set the styles for the choose link */
+  a.choose {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background-color: #008000;
+    padding: 13px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  /* Set the styles for the card box */
+  .card-box:hover {
+    color: white;
+  }
+  
+  .card-box::after {
+    content: '\1F6D2';
+  }
+  
+  /* Set the styles for the h1 and h2 */
+  h1,
+  h2 {
+    color: #008000;
+  }
+  
+  /* Set the styles for the mark */
+  .mark {
+    text-align: center;
+  }
+  
+  /* Set the styles for the about us column 1 */
+  .about-us-col-1 {
+    width: 60%;
+  }
+  
+  /* Set the styles for the cube */
+  .cube {
+    background-color: #008000;
+    width: 100px;
+    height: 300px;
+  }
+  
+  /* Set the styles for the shop h1 */
+  .shop > h1 {
+    padding-left: 90px;
+  }
+  
+  /* Set the styles for the main menu container */
+  .main-menu-container > a > span {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  
+  /* Set the styles for the choose link on hover */
+  .choose:hover {
+    font-size: 13pt;
+    transition-duration: 0.1s;
+  }
+  
+  /* Set the styles for the footer */
+  footer {
+    background-color: #dbdbdb;
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0 auto;
+  }
+  
+  /* Define the styles for the footer ul */
+  .footer-ul {
+    list-style: none;
+  }
+  
+  /* Define the styles for the footer ul li */
+  .footer-ul > li {
+    padding-top: 5px;
+  }
+  
+  /* Define the styles for the footer ul1 */
+  .footer-ul1 {
+    margin-top: 65px;
+  }
+  
+  /* Define the styles for extra small devices */
+  @media only screen and (max-width: 600px) {
+    /* Adjust the height of the footer */
+    footer {
+      height: 150px;
+    }
+  }
+  
+  /* Define the styles for small devices */
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* Adjust the height of the footer */
+    footer {
+      height: 175px;
+    }
+  }
+  
+  /* Define the styles for medium devices */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Adjust the height of the footer */
+    footer {
+      height: 200px;
+    }
+  }
+  
+  /* Define the styles for large devices */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Adjust the height of the footer */
+    footer {
+      height: 225px;
+    }
+  }
+  
+  /* Define the styles for extra large devices */
+  @media only screen and (min-width: 1200px) {
+    /* Adjust the height of the footer */
+    footer {
+      height: 250px;
+    }
+  }
+  
+  /* Set the styles for the top li */
+  .top-li {
+    font-size: 11pt;
+  }
+  
+  /* Set the styles for the top a */
+  .top-a {
+    font-size: 12pt;
+    font-weight: bold;
+  }
+  
+  /* Set the styles for the copyright */
+  .copyright:before {
+    content: "©";
+  }
+  
+  /* Set the styles for the copyright */
+  copyright {
+    margin-top: 10px;
+    font-size: 9pt;
+  }
+  
+  /* Set the styles for the main pic */
+  .main-pic {
+    width: 100%;
+    height: 600px;
+  }
+  
+  /* Set the styles for the image */
+  .img {
+    display: block;
+    margin: auto;
+  }
+  
+  /* Set the styles for extra small devices */
+  @media only screen and (max-width: 600px) {
+    .main-menu-container {
+      font-size: 10pt;
+    }
+    .site-name {
+      font-size: 20pt;
+    }
+    .img {
+      height: 300px;
+      width:100%;
+    }
+
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .main-menu-container {
+      font-size: 11pt;
+    }
+    .site-name {
+      font-size: 22pt;
+    }
+    .img {
+      height: 400px;
+      width: 100%;
+      padding-top: 30px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .main-menu-container {
+      font-size: 12pt;
+    }
+    .site-name {
+      font-size: 24pt;
+    }
+    .img {
+      height: 450px;
+      width: 100%;
+      padding-top: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu-container {
+      font-size: 13pt;
+    }
+    .site-name {
+      font-size: 26pt;
+    }
+    .img {
+      height: 500px;
+      width: 100%;
+      padding-top: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .main-menu-container {
+      font-size: 14pt;
+    }
+    .site-name {
+      font-size: 28pt;
+    }
+    .img {
+      height: 550px;
+      width: 100%;
+      padding-top: 60px;
+    }
+}
+  }
