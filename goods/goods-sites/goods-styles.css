@@ -12,6 +12,7 @@ a>p{
 .goods-nav-header {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #008000;
     height: 10vh;
