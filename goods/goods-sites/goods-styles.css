@@ -7,7 +7,8 @@ a>p{
     background-color: lightgreen;
     height: 25px;
 }
-/* Define the styles for the goods-nav-header */
+
+
 .goods-nav-header {
     display: flex;
     justify-content: center;
@@ -16,55 +17,50 @@ a>p{
     height: 50px;
     color: white;
   }
-  
-  /* Define the styles for the goods-nav */
+ 
   .goods-nav > a > span {
     padding: 25px;
     font-weight: 600;
-    font-size: 2vw;
+    font-size: calc(1vw + 1vh);
     color: white;
+    word-wrap: break-word;
+    letter-spacing: 1px;
   }
   
-  /* Define the styles for the goods-nav on hover */
   .goods-nav > a > span:hover {
     color: darkorange;
   }
   
-  /* Define the styles for extra small devices */
   @media only screen and (max-width: 600px) {
-    /* Adjust the font size for the goods-nav */
+    
     .goods-nav > a > span {
       font-size: 3vw;
     }
   }
   
-  /* Define the styles for small devices */
   @media only screen and (min-width: 600px) and (max-width: 768px) {
-    /* Adjust the font size for the goods-nav */
+    
     .goods-nav > a > span {
       font-size: 2.5vw;
     }
   }
   
-  /* Define the styles for medium devices */
   @media only screen and (min-width: 768px) and (max-width: 992px) {
-    /* Adjust the font size for the goods-nav */
+    
     .goods-nav > a > span {
       font-size: 2vw;
     }
   }
   
-  /* Define the styles for large devices */
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    /* Adjust the font size for the goods-nav */
+    
     .goods-nav > a > span {
       font-size: 1.5vw;
     }
   }
   
-  /* Define the styles for extra large devices */
   @media only screen and (min-width: 1200px) {
-    /* Adjust the font size for the goods-nav */
+    
     .goods-nav > a > span {
       font-size: 1vw;
     }
@@ -96,7 +92,6 @@ a>p{
     color: black; 
     text-decoration: none; 
     user-select: none; 
-    /* border: 0.5px solid black; */
     padding: 2vw;
 }
 .add-to-cart:hover{
@@ -116,68 +111,4 @@ a>p{
 }
 .goods-nav-header>div>span>a{
     color: white;
-}
-.openModal {
-	position: fixed;
-	font-family: Arial, Helvetica, sans-serif;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-	transition: opacity 400ms ease-in;
-	display: none;
-	pointer-events: none;
-}
-.openModal:target {
-	display: block;
-	pointer-events: auto;
-}
-
-.openModal > div {
-	width: 400px;
-	position: relative;
-	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
-	border-radius: 10px;
-	background: #fff;
-}
-
-.close {
-	background: #606061;
-	color: #FFFFFF;
-	line-height: 25px;
-	position: absolute;
-	right: -12px;
-	text-align: center;
-	top: -10px;
-	width: 24px;
-	text-decoration: none;
-	font-weight: bold;
-	border-radius: 12px;
-	box-shadow: 1px 1px 3px #000;
-}
-
-.close:hover { 
-    background: #00d9ff;
-}
-.specifications{
-    display: table;
-    border-collapse: collapse;
-    margin-top: 25px;
-}
-.table-head{
-    display: table-row;
-    font-weight: bold;
-}
-.table-info{
-    display: table-cell;
-    width: 65%;
-}
-.table-info, .table-info-r{
-    display: table-cell;
-}
-.table-info>div, .table-info-r>div{
-    border: 1px solid black;
-    padding: 10px;
 }
