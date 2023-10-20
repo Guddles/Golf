@@ -122,7 +122,9 @@
   }
 
   
-
+.good-price{
+    font-size: 2vw;
+}
   .main-menu-container > a > span {
     margin-left: 3px;
     margin-right: 3px;
