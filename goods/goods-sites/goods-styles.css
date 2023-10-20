@@ -80,7 +80,7 @@ a>p{
 }
 .good-price{
     margin-bottom: 15px;
-    font-size: 1.5vw;
+    font-size: 1.2rem;
 }
 .good-price::after{
     content: '\20BD';
