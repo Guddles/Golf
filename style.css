@@ -25,6 +25,11 @@ a {
     text-decoration: none;
     color: black;
 }
+.tgicon {
+    width: 30px;
+    height: 30px;
+    
+}
 
 .main-menu-container > a:hover,
 footer > ul > li > ul > li:hover,
